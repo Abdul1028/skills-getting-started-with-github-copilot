@@ -22,7 +22,7 @@ document.addEventListener("DOMContentLoaded", () => {
         
 
         //Render current enrolled participants also 
-        //Generated form Github Copilot Edit Mode
+        //Generated from Github Copilot Edit Mode
         // Create participants list HTML
         let participantsList = '';
         if (details.participants.length > 0) {
