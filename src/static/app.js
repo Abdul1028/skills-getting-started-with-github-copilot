@@ -30,7 +30,7 @@ document.addEventListener("DOMContentLoaded", () => {
             <div class="participants-section">
               <p><strong>Current Participants:</strong></p>
               <ul class="participants-list">
-                ${details.participants.map(participant => `<li>${participant}</li>`).join('')}
+                ${details.participants.map(participant => `<li>${escapeHTML(participant)}</li>`).join('')}
               </ul>
             </div>
           `;
